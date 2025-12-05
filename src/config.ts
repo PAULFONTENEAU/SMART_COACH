@@ -50,7 +50,7 @@ export const siteConfig = {
       'Transform your workflow with autonomous AI agents that handle complex tasks, learn from your data, and deliver results 24/7. No coding required.',
     cta: {
       primary: {
-        text: 'Commence aujourd'hui',
+        text: 'Commence aujourd hui',
         href: '#contact',
       },
       secondary: {
