@@ -5,6 +5,7 @@ import icon from 'astro-icon';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://smart_coach.github.io',
+  base: '/SMART_COACH',
   integrations: [icon()],
   server: {
     host: '0.0.0.0',
