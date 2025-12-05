@@ -7,10 +7,10 @@ export const siteConfig = {
   // SITE METADATA & SEO
   // ============================================
   site: {
-    name: 'SMART_COACH',
-    title: 'SMART COACH - Un coach personnel embarqué',
+    name: 'AI Agent Platform',
+    title: 'AI Agent Platform - Intelligent Automation for Modern Teams',
     description:
-      'Transforme tes objectifs sportifs avec un agent IA profesionel et personel embarqué. Défini tes objectifs. Commence gratuitement aujourd'hui!',
+      'Transform your business with autonomous AI agents. Automate workflows, integrate seamlessly, and scale effortlessly. Start free today.',
     keywords:
       'AI agents, automation, workflow automation, AI platform, business automation',
     email: 'hello@aiagentplatform.com',
