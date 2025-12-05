@@ -7,8 +7,8 @@ export const siteConfig = {
   // SITE METADATA & SEO
   // ============================================
   site: {
-    name: 'AI Agent Platform',
-    title: 'AI Agent Platform - Intelligent Automation for Modern Teams',
+    name: 'SMART COACH',
+    title: 'SMART COACH - Ton coach sportif personel disponible 24h/24h',
     description:
       'Transform your business with autonomous AI agents. Automate workflows, integrate seamlessly, and scale effortlessly. Start free today.',
     keywords:
