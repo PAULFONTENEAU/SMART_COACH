@@ -44,13 +44,13 @@ export const siteConfig = {
   // HERO SECTION
   // ============================================
   hero: {
-    headline: 'Intelligent AI Agents',
-    subheadline: 'Built for Your Business',
+    headline: 'Coach sportif personnel',
+    subheadline: 'Crée pour ta progression',
     description:
       'Transform your workflow with autonomous AI agents that handle complex tasks, learn from your data, and deliver results 24/7. No coding required.',
     cta: {
       primary: {
-        text: 'Get Started Free',
+        text: 'Commence aujourd'hui',
         href: '#contact',
       },
       secondary: {
