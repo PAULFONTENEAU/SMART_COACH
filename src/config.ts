@@ -10,7 +10,7 @@ export const siteConfig = {
     name: 'SMART COACH',
     title: 'SMART COACH - Ton coach sportif personel disponible 24h/24h',
     description:
-      'Transform your business with autonomous AI agents. Automate workflows, integrate seamlessly, and scale effortlessly. Start free today.',
+      'Boostez vos performances avec un coach sportif IA. Programmes adaptés, suivi précis et progression garantie. Start free today.',
     keywords:
       'AI agents, automation, workflow automation, AI platform, business automation',
     email: 'hello@aiagentplatform.com',
