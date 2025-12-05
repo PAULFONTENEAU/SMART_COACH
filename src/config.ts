@@ -47,7 +47,7 @@ export const siteConfig = {
     headline: 'Coach sportif personnel',
     subheadline: 'Crée pour ta progression',
     description:
-      'Transform your workflow with autonomous AI agents that handle complex tasks, learn from your data, and deliver results 24/7. No coding required.',
+      'Un coach IA qui vous connaît vraiment : objectifs, charge d’entraînement, blessures, fréquence cardiaque… votre programme devient 100% sur-mesure.',
     cta: {
       primary: {
         text: 'Commence aujourd hui',
