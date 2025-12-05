@@ -10,7 +10,7 @@ export const siteConfig = {
     name: 'SMART_COACH',
     title: 'SMART COACH - Un coach personnel embarqué',
     description:
-      'Transforme tes objectifs sportifs avec un agent IA profesionel et personel embarqué. Défini tes objectifs, programme tes séance de la semaine, suit ta progression, et bien plus encore. Commence gratuitement aujourd'hui !',
+      'Transforme tes objectifs sportifs avec un agent IA profesionel et personel embarqué. Défini tes objectifs. Commence gratuitement aujourd'hui !',
     keywords:
       'AI agents, automation, workflow automation, AI platform, business automation',
     email: 'hello@aiagentplatform.com',
