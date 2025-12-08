@@ -10,10 +10,10 @@ export const siteConfig = {
     name: 'SMART COACH',
     title: 'SMART COACH - Ton coach sportif personel disponible 24h/24h',
     description:
-      'Boostez vos performances avec un coach sportif IA. Programmes adaptés, suivi précis et progression garantie. Start free today.',
+      "Boostez vos performances avec un coach sportif IA. Programmes adaptés, suivi précis et progression garantie. Commence gratuitement aujourd'hui",
     keywords:
       'AI agents, automation, workflow automation, AI platform, business automation',
-    email: 'hello@aiagentplatform.com',
+    email: "peyofonteneau8@gmail.com",
 
     // Open Graph / Twitter
     ogTitle: 'AI Agent Platform - Intelligent Automation',
@@ -30,8 +30,8 @@ export const siteConfig = {
   navigation: {
     links: [
       { name: 'Qui sommes nous ?', href: '#features' },
-      { name: 'How It Works', href: '#how-it-works' },
-      { name: 'Pricing', href: '#pricing' },
+      { name: 'Fonctionnement', href: '#how-it-works' },
+      { name: 'Tarification', href: '#pricing' },
       { name: 'FAQ', href: '#faq' },
     ],
     cta: {
@@ -89,16 +89,16 @@ export const siteConfig = {
   // HOW IT WORKS
   // ============================================
   howItWorks: {
-    title: 'How It Works',
-    subtitle: 'Get started in minutes with our simple 5-step process',
+    title: 'Le fonctionnement',
+    subtitle: "Voici le fonctionnement de ton futur coach :",
   },
 
   // ============================================
   // TESTIMONIALS
   // ============================================
   testimonials: {
-    title: 'Loved by Teams Worldwide',
-    subtitle: 'See what our customers have to say about AI Agent Platform',
+    title: 'Vos avis',
+    subtitle: "Retrouvez ci-dessous vos futurs avis sur notre coach !",
     companyLogos: [
       'TECHFLOW',
       'INNOVATE',
@@ -112,7 +112,7 @@ export const siteConfig = {
   // PRICING
   // ============================================
   pricing: {
-    title: 'Simple, Transparent Pricing',
+    title: 'Tarification',
     subtitle:
       'Choose the plan that fits your needs. Upgrade or downgrade anytime.',
     plans: [
