@@ -29,13 +29,13 @@ export const siteConfig = {
   // ============================================
   navigation: {
     links: [
-      { name: 'Features', href: '#features' },
+      { name: 'Qui sommes nous ?', href: '#features' },
       { name: 'How It Works', href: '#how-it-works' },
       { name: 'Pricing', href: '#pricing' },
       { name: 'FAQ', href: '#faq' },
     ],
     cta: {
-      text: 'Get Started',
+      text: 'Nous contacter',
       href: '#contact',
     },
   },
@@ -54,14 +54,14 @@ export const siteConfig = {
         href: '#contact',
       },
       secondary: {
-        text: 'See How It Works',
+        text: 'Comment ça marche ?',
         href: '#how-it-works',
       },
     },
     stats: [
-      { value: '10k+', label: 'Active Agents' },
-      { value: '99.9%', label: 'Uptime' },
-      { value: '5M+', label: 'Tasks Automated' },
+      { value: '2', label: 'Comptes en activités' },
+      { value: '24/24', label: 'Disponibilité' },
+      { value: '0', label: 'Nb objectifs validés' },
     ],
   },
 
@@ -69,9 +69,9 @@ export const siteConfig = {
   // FEATURES SECTION
   // ============================================
   features: {
-    title: 'Powerful Capabilities',
+    title: 'Qui sommes nous ?',
     subtitle:
-      'Everything you need to build, deploy, and scale intelligent automation',
+      "Deux jeunes passionnées de triathlon, en quête d’une préparation plus intelligente et accessible.",
     items: [
       { icon: 'lightning', title: 'Autonomous Execution' },
       { icon: 'code', title: 'Smart Integration' },
