@@ -1,4 +1,4 @@
-export const featuresContent = [
+export const presentationContent = [
   {
     icon: 'lightning',
     title: 'Autonomous Execution',
