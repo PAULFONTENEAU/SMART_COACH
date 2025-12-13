@@ -66,6 +66,26 @@ export const siteConfig = {
   },
 
   // ============================================
+  // Qui sommes nous ? 
+  // ============================================
+  features: {
+    title: 'Qui sommes nous ?',
+    subtitle:
+      "Deux jeunes passionnées de triathlon, en quête d’une préparation plus intelligente et accessible.",
+    items: [
+      { icon: 'lightning', title: 'Autonomous Execution' },
+      { icon: 'code', title: 'Smart Integration' },
+      { icon: 'chart', title: 'Real-Time Analytics' },
+      { icon: 'chat', title: 'Natural Language' },
+      { icon: 'shield', title: 'Enterprise Security' },
+      { icon: 'clock', title: '24/7 Operation' },
+      { icon: 'brush', title: 'Custom Workflows' },
+      { icon: 'layers', title: 'Multi-Agent Teams' },
+      { icon: 'zap', title: 'Instant Scaling' },
+    ],
+  },
+
+  // ============================================
   // FEATURES SECTION
   // ============================================
   features: {
