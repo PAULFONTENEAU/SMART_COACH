@@ -89,7 +89,7 @@ export const siteConfig = {
   // FEATURES SECTION
   // ============================================
   features: {
-    title: 'Qui sommes nous ?',
+    title: 'features',
     subtitle:
       "Deux jeunes passionnées de triathlon, en quête d’une préparation plus intelligente et accessible.",
     items: [
