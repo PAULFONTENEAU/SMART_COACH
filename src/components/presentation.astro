@@ -1,32 +1,14 @@
 ---
 import { siteConfig } from '../config.ts';
-import { Icon } from 'astro-icon/components';
-import { presentationContent } from '../content/presentation';
+import remiPaulPhoto1 from '../photo/remi-paul1.JPEG';
+import remiPaulPhoto from '../photo/remi-paul.JPEG';
 
-const iconMap = {
-  lightning: 'heroicons:bolt',
-  code: 'heroicons:code-bracket',
-  chart: 'heroicons:chart-bar',
-  chat: 'heroicons:chat-bubble-left-right',
-  shield: 'heroicons:lock-closed',
-  clock: 'heroicons:clock',
-  brush: 'heroicons:paint-brush',
-  layers: 'heroicons:user-group',
-  zap: 'heroicons:arrow-trending-up',
-};
 ---
 
 <section id="presentation" class="relative bg-white px-4 py-20 sm:px-6 lg:px-8">
-  <div
-    class="border-mono-lighter absolute top-8 left-8 h-16 w-16 border-t-2 border-l-2"
-  >
-  </div>
-  <div
-    class="border-mono-lighter absolute top-8 right-8 h-16 w-16 border-t-2 border-r-2"
-  >
-  </div>
-
   <div class="mx-auto max-w-7xl">
+
+    <!-- Titre et sous-titre -->
     <div class="scroll-fade-up mx-auto mb-16 max-w-3xl text-center">
       <h2 class="text-mono-black mb-4 text-4xl font-bold sm:text-5xl">
         {siteConfig.presentation.title}
@@ -36,22 +18,32 @@ const iconMap = {
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-      {
-        presentationContent.map((feature, index) => (
-          <div
-            class={`group ${index % 2 === 0 ? 'scroll-fade-left' : 'scroll-fade-right'} border-mono-lighter rounded-xl border p-8 stagger-${(index % 9) + 1}`}
-          >
-            <div class="feature-icon bg-mono-black mb-6 flex h-14 w-14 items-center justify-center rounded-lg text-white">
-              <Icon name={iconMap[feature.icon]} class="h-7 w-7" />
-            </div>
-            <h3 class="text-mono-black mb-3 text-xl font-semibold">
-              {feature.title}
-            </h3>
-            <p class="text-mono-dark leading-relaxed">{feature.description}</p>
-          </div>
-        ))
-      }
+    <!-- Bulles verticales avec photos et descriptions -->
+    <div class="flex flex-col md:flex-row md:space-x-12 space-y-8 md:space-y-0 justify-center items-center">
+      
+      <!-- Bulle 1 -->
+      <div class="flex flex-col md:flex-row items-center bg-mono-light rounded-xl p-8 shadow-lg">
+        <img src={remiPaulPhoto1} alt="Paul" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md">
+        <div class="text-center md:text-left">
+          <h3 class="text-mono-black text-xl font-semibold">Paul – Développeur</h3>
+          <p class="text-mono-dark mt-2 leading-relaxed">
+            Passionné par le développement et le design, Paul travaille sur [description courte du rôle ou compétence].
+          </p>
+        </div>
+      </div>
+
+      <!-- Bulle 2 -->
+      <div class="flex flex-col md:flex-row items-center bg-mono-light rounded-xl p-8 shadow-lg">
+        <img src={remiPaulPhoto} alt="[Nom]" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md">
+        <div class="text-center md:text-left">
+          <h3 class="text-mono-black text-xl font-semibold">[Nom] – Designer</h3>
+          <p class="text-mono-dark mt-2 leading-relaxed">
+            Passionné par [description courte du rôle ou compétence], [Nom] apporte la créativité et le design à notre application.
+          </p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
+
