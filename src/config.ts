@@ -66,7 +66,7 @@ export const siteConfig = {
   },
 
   // ============================================
-  // Qui sommes nous ? 
+  // presentation
   // ============================================
   presentation: {
     title: "Qui sommes nous  ?",
