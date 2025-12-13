@@ -68,8 +68,8 @@ export const siteConfig = {
   // ============================================
   // Qui sommes nous ? 
   // ============================================
-  features: {
-    title: '3435 ?',
+  presentation: {
+    title: "Qui sommes nous ?",
     subtitle:
       "Deux jeunes passionnées de triathlon, en quête d’une préparation plus intelligente et accessible.",
     items: [
