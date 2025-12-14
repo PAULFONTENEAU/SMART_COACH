@@ -7,11 +7,11 @@ import testtt from '../photo/test2.png';
 
 ---
 
+
 <section id="presentation" class="relative bg-white px-4 py-20 sm:px-6 lg:px-8">
   <div class="mx-auto max-w-7xl">
 
-    <!-- Titre et sous-titre -->
-    <div class="scroll-fade-up mx-auto mb-16 max-w-3xl text-center">
+    <div class="scroll-fade-up mx-auto mb-16 max-w-5xl text-center">
       <h2 class="text-mono-black mb-4 text-4xl font-bold sm:text-5xl">
         {siteConfig.presentation.title}
       </h2>
@@ -20,33 +20,41 @@ import testtt from '../photo/test2.png';
       </p>
     </div>
 
-    <!-- Bulles verticales avec photos et descriptions -->
-    <div class="flex flex-col md:flex-row md:space-x-12 space-y-8 md:space-y-0 justify-center items-center">
+    <div class="flex flex-col justify-center items-center mx-auto max-w-5xl">
       
-      <!-- Bulle 1 -->
-      <div class="flex flex-col md:flex-row items-center bg-mono-light rounded-xl p-8 shadow-lg">
-        <img src={"/SMART_COACH/test.jpg"} alt="Paul" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md"/>
+      <div class="flex flex-col md:flex-row items-start bg-gray-100 rounded-xl p-8 shadow-lg w-full">
+        
+        <div class="flex flex-col items-center space-y-8 md:mr-8 mb-4 md:mb-0 flex-shrink-0">
+            
+            <img 
+                src={"/SMART_COACH/remi-paul1.jpg"} 
+                alt="Paul" 
+                class="rounded-lg w-64 h-64 shadow-md object-cover"
+            />
+            
+            <img 
+                src={"/SMART_COACH/remi-paul.jpg"} 
+                alt="Rémi" 
+                class="rounded-lg w-64 h-64 shadow-md object-cover"
+            />
+        </div>
+        
         <div class="text-center md:text-left">
-          <h3 class="text-mono-black text-xl font-semibold">Notre histoire</h3>
-          <p class="text-mono-dark mt-2 leading-relaxed">
-            Nous nous sommes rencontrés, il y a 5 ans en DUT génie-civil. A l'époque je "(Paul)" jouait au football et Rémi performait dans le domaine du Judo. Par la suite nous avons découvert la course à pied et le triathlon. Dans cette période d'émergence de l'intelligece artificielle et avec le peu de connaissance que nous avions, nous avons commencé à utiliser l'IA pour réaliser nos programmations mais nous regrettions qu'elle ne soit pas connectés à nos performances pour pouvoir être plus juste dans ses analyses. Nous regrettions aussi de ne pas savoir sur quelle étude, se base t-elle pour adapter les programmes à nos performances blessures etc. 
+          <h3 class="text-mono-black text-xl font-semibold mb-4">Notre histoire</h3>
+          <p class="text-mono-dark leading-relaxed">
+            Nous nous sommes rencontrés il y a cinq ans, sur les bancs d’un DUT Génie Civil. À l’époque, Paul évoluait sur les terrains de football tandis que Rémi performait sur les tatamis de judo. Deux parcours sportifs différents, mais une même exigence : progresser, comprendre et optimiser la performance.<br/><br/>
+
+            Au fil des années, nos chemins sportifs se sont rejoints autour de la course à pied puis du triathlon. En parallèle, l’intelligence artificielle commençait à s’imposer dans notre quotidien. Curieux et pragmatiques, nous avons rapidement intégré ces outils pour construire nos plans d’entraînement. Les résultats étaient intéressants, mais une frustration persistait.<br/><br/>
+
+            L’IA nous proposait des programmes génériques, sans réelle connexion à nos données de performance, à notre historique d’entraînement ou à nos blessures. Pire encore, il était difficile de comprendre sur quelles bases scientifiques ou quelles études reposaient réellement ses recommandations. Comment faire confiance à un système qui ne sait pas qui nous sommes, ni comment nous progressons ?<br/><br/>
+
+            C’est de ce constat qu’est née notre ambition : créer une solution d’entraînement réellement intelligente, transparente et personnalisée. Une IA capable d’exploiter les données de terrain, d’adapter ses analyses à chaque athlète et de s’appuyer sur des références scientifiques claires. Une IA au service de la performance durable, pas du hasard.
           </p>
+          
+          <h3 class="text-mono-black text-xl font-semibold mt-8 mb-2">Paul et Rémi – Les Fondateurs</h3>
         </div>
       </div>
-
-
-      <!-- Bulle 2 -->
-      <div class="flex flex-col md:flex-row items-center bg-mono-light rounded-xl p-8 shadow-lg">
-        <img src={"/SMART_COACH/remi-paul.jpg"} alt="[Nom]" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md">
-        <div class="text-center md:text-left">
-          <h3 class="text-mono-black text-xl font-semibold">[Nom] – Designer</h3>
-          <p class="text-mono-dark mt-2 leading-relaxed">
-            Passionné par [description courte du rôle ou compétence], [Nom] apporte la créativité et le design à notre application.
-          </p>
-        </div>
+      
       </div>
-
-    </div>
   </div>
 </section>
-
