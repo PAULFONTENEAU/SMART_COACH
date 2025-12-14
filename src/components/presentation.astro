@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets';
 import { siteConfig } from '../config.ts';
 import remiPaulPhoto1 from '../photo/remi-paul1.jpeg';
 import testtt from '../photo/test2.png';
@@ -24,20 +25,19 @@ import testtt from '../photo/test2.png';
       
       <!-- Bulle 1 -->
       <div class="flex flex-col md:flex-row items-center bg-mono-light rounded-xl p-8 shadow-lg">
-        <img src={`${import.meta.env.BASE_URL}test.jpg`} alt="Paul" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md"/>
+        <img src={"/SMART_COACH/test.jpg"} alt="Paul" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md"/>
         <div class="text-center md:text-left">
-          <h3 class="text-mono-black text-xl font-semibold">Paul – Développeur</h3>
+          <h3 class="text-mono-black text-xl font-semibold">Notre histoire</h3>
           <p class="text-mono-dark mt-2 leading-relaxed">
-            Passionné par le développement et le design, Paul travaille sur [description courte du rôle ou compétence].
+            Nous nous sommes rencontrés, il y a 5 ans en DUT génie-civil. A l'époque je "(Paul)" jouait au football et Rémi performait dans le domaine du Judo. Par la suite nous avons découvert la course à pied et le triathlon. Dans cette période d'émergence de l'intelligece artificielle et avec le peu de connaissance que nous avions, nous avons commencé à utiliser l'IA pour réaliser nos programmations mais nous regrettions qu'elle ne soit pas connectés à nos performances pour pouvoir être plus juste dans ses analyses. Nous regrettions aussi de ne pas savoir sur quelle étude, se base t-elle pour adapter les programmes à nos performances blessures etc. 
           </p>
         </div>
       </div>
 
-      <img src="/test.jpg" alt="Paul Fonteneau" width="480" height="620" />
 
       <!-- Bulle 2 -->
       <div class="flex flex-col md:flex-row items-center bg-mono-light rounded-xl p-8 shadow-lg">
-        <img src={remiPaulPhoto1} alt="[Nom]" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md">
+        <img src={"/SMART_COACH/remi-paul.jpg"} alt="[Nom]" class="rounded-full w-32 h-32 md:mr-6 mb-4 md:mb-0 shadow-md">
         <div class="text-center md:text-left">
           <h3 class="text-mono-black text-xl font-semibold">[Nom] – Designer</h3>
           <p class="text-mono-dark mt-2 leading-relaxed">
