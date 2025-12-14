@@ -1,32 +1,26 @@
 export const howItWorksSteps = [
   {
     number: 1,
-    title: 'Define Your Goal',
+    title: "Présente toi",
     description:
-      'Describe what you want to automate in plain English. No technical jargon needed.',
+      "rentre tes informations de base, tes objectifs, ton niveau, tes disponibilités, tes blessures, et tes préférences d'entrainement.",
   },
   {
     number: 2,
-    title: 'Connect Your Tools',
+    title: 'Connecte ton strava',
     description:
-      'Link your existing apps and services. We support 1000+ integrations out of the box.',
+      "Connecte smart_coah à ton strava pour qu'il puisse accéder à tes entrainements, et tes statistiques passés et futurs.",
   },
   {
     number: 3,
-    title: 'Deploy Your Agent',
+    title: 'Discute avec ton coach',
     description:
-      'Our AI configures and optimizes your agent automatically. Review and launch in one click.',
+      'A tout moment, discute avec ton coach pour optimiser tes entrainements, ta programmation, ta nutrition, ta récupération, et bien plus encore.',
   },
   {
     number: 4,
-    title: 'Monitor & Optimize',
+    title: 'Atteint tes objecifs',
     description:
-      'Track performance in real-time and let your agents learn and improve continuously.',
-  },
-  {
-    number: 5,
-    title: 'Scale & Grow',
-    description:
-      "Add more agents, automate new workflows, and watch your team's productivity soar.",
+      'En suivant les conseils de smart_coach, progresse rapidement et atteints tes objectifs de manière efficace et durable.',
   },
 ];

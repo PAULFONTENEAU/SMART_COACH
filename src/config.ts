@@ -89,9 +89,9 @@ export const siteConfig = {
   // FEATURES SECTION
   // ============================================
   features: {
-    title: 'features',
+    title: "les avantages de smart_coach",
     subtitle:
-      "Deux jeunes passionnées de triathlon, en quête d’une préparation plus intelligente et accessible.",
+      "Utiliser smart_coach vous donne de nombreux avantages par rapport à un entrainement seul et même en comparaison à un coach classique.",
     items: [
       { icon: 'lightning', title: 'Autonomous Execution' },
       { icon: 'code', title: 'Smart Integration' },

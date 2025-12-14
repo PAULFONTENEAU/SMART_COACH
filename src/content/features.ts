@@ -1,14 +1,20 @@
 export const featuresContent = [
   {
     icon: 'lightning',
-    title: 'Autonomous Execution',
+    title: 'Compréhension de votre état',
     description:
-      'AI agents that understand context, make decisions, and execute tasks without constant supervision.',
+      "Smart_coach vous analysera une première fois et adapte puis réadapte votre programmation après chaque entrainement, besoin, blessure, en fonction de votre ressenti physique, psychique et de vos besoins, envies, objectifs",
   },
   {
     icon: 'code',
-    title: 'Smart Integration',
+    title: 'Un coach connecté',
     description:
-      'Seamlessly connect with your tools: Slack, email, databases, APIs, and 1000+ platforms.',
+      "Après chacune de vos séance et grâce à sa connexion avec strava il analysera vos performances et ajustera votre programme en conséquence.",
+  },
+  {
+    icon: 'chart',
+    title: "Plus qu'un coach classique",
+    description:
+      "Le RAG (Retrieval-Augmented Generation) permet à smart_coach d’avoir accès à une base d'étude défini sur le triathlon, la physiologie, la nutrition, la psychologie du sport et bien d’autres domaines liés à la performance sportive. Ce système permet à smart_coach de justifier ces conseils en s'appuyant sur des études solides sélectionnés.",
   },
 ];

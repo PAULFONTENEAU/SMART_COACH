@@ -1,56 +1,56 @@
 export const testimonialsData = [
   {
     quote:
-      'This platform transformed our customer support. We automated 80% of routine inquiries and our team can focus on complex issues. Game changer!',
-    author: 'Sarah Johnson',
-    role: 'Head of Operations',
+      "Smart_coach que j'ai crée m'a permis de réaliser mes premiers triathlons formats S en atteignant mes objectifs de temps et de classement",
+    author: 'Rémi Bertrand',
+    role: 'Fondateur',
     company: 'Stripe',
-    initials: 'SJ',
+    initials: 'RB',
     rating: 5,
   },
   {
     quote:
-      'The ROI was immediate. We deployed our first agent in under an hour and saved 20 hours per week. The analytics dashboard is incredibly powerful.',
-    author: 'Michael Park',
-    role: 'CTO',
+      "Smart_coach m'a permis d'atteindre mes objectifs de course à pied et de triathlon M, tout en adaptant ma programmation à une récente opération de l'adducteur et au football que je pratique depuis mes 4 ans. Aujourd'hui smart_coach m'accompagne pour préparer mon premier half ironman en juin 2025.",
+    author: 'Paul Fonteneau',
+    role: 'Co-fondateur',
     company: 'Shopify',
-    initials: 'MP',
+    initials: 'PF',
     rating: 5,
   },
   {
     quote:
-      'Setup was surprisingly easy. We went from idea to production in less than a week. The support team is exceptional and always available.',
-    author: 'Emily Chen',
-    role: 'Product Lead',
+      'Ce commentaire sera le votre, dès votre premier retour sur notre produit !',
+    author: 'Vous',
+    role: '?',
     company: 'Notion',
-    initials: 'EC',
+    initials: '?',
+    rating: 5,
+  },
+  {
+     quote:
+      'Ce commentaire sera le votre, dès votre premier retour sur notre produit !',
+    author: 'Vous',
+    role: '?',
+    company: 'Notion',
+    initials: '?',
+    rating: 5,
+  },
+  {
+     quote:
+      'Ce commentaire sera le votre, dès votre premier retour sur notre produit !',
+    author: 'Vous',
+    role: '?',
+    company: 'Notion',
+    initials: '?',
     rating: 5,
   },
   {
     quote:
-      'Our sales team uses AI agents to qualify leads and schedule meetings. Conversion rates increased by 45% in the first month. Absolutely worth it.',
-    author: 'David Martinez',
-    role: 'VP of Sales',
-    company: 'HubSpot',
-    initials: 'DM',
-    rating: 5,
-  },
-  {
-    quote:
-      "We scaled our support from 50 to 5,000 daily conversations without hiring additional staff. The AI understands context better than any tool we've tried.",
-    author: 'Rachel Green',
-    role: 'Customer Success Director',
-    company: 'Intercom',
-    initials: 'RG',
-    rating: 5,
-  },
-  {
-    quote:
-      'Integration with our existing tools was seamless. The agents handle everything from data entry to complex workflows. Our team productivity doubled.',
-    author: 'James Wilson',
-    role: 'Engineering Manager',
-    company: 'Linear',
-    initials: 'JW',
+      'Ce commentaire sera le votre, dès votre premier retour sur notre produit !',
+    author: 'Vous',
+    role: '?',
+    company: 'Notion',
+    initials: '?',
     rating: 5,
   },
 ];
