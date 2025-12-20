@@ -2,6 +2,8 @@
 // SITE CONFIGURATION
 // ============================================
 
+import type { icons } from "@iconify-json/simple-icons/index.js";
+
 export const siteConfig = {
   // ============================================
   // SITE METADATA & SEO
@@ -134,60 +136,53 @@ export const siteConfig = {
   pricing: {
     title: 'Tarification',
     subtitle:
-      'Choose the plan that fits your needs. Upgrade or downgrade anytime.',
+      'Retrouvez ici nos différents plans de paiements. Chacun ses besoins, chacun son plan :)',
     plans: [
       {
-        name: 'Free',
-        price: '$0',
-        period: '/month',
-        description: 'Perfect for individuals and testing',
+        name: 'Débutant',
+        price: '4.99 euros',
+        period: '/mois',
+        description: 'Parfait pour débuter rapidement votre prépa spécifique et adapté sans prise tête',
         features: [
-          'Up to 3 agents',
-          '1,000 tasks/month',
-          'Basic integrations',
-          'Email support',
+          "Canal d'entrainement",
+          '5 requêtes adaptatives/ semaine',
+          'Disponibilté du support',
         ],
         cta: {
-          text: 'Get Started',
+          text: 'Commencer',
           href: '#contact',
         },
         featured: false,
       },
       {
-        name: 'Pro',
-        price: '$49',
-        period: '/month',
-        description: 'For growing teams and businesses',
+        name: 'Professionel',
+        price: '10 euros',
+        period: '/mois',
+        description: 'Pour aller plus loin',
         badge: 'MOST POPULAR',
         features: [
-          'Unlimited agents',
-          '50,000 tasks/month',
-          'All integrations',
-          'Priority support',
-          'Advanced analytics',
-          'Team collaboration',
+          "Canal d'entrainement",
+          "Canal nutrition",
+          'nb illimités de requêtes adaptatives/ semaine',
+          'Disponibilté du support',
         ],
         cta: {
-          text: 'Start Free Trial',
+          text: 'Commencer',
           href: '#contact',
         },
         featured: true,
       },
       {
-        name: 'Enterprise',
-        price: 'Custom',
+        name: 'Entreprise',
+        price: 'Customiser',
         period: '',
-        description: 'For large-scale operations',
+        description: "Parce que vos employés mérite d'atteindre leurs objectifs spotifs",
         features: [
-          'Unlimited everything',
-          'Custom integrations',
-          'Dedicated support',
-          'SLA guarantee',
-          'On-premise option',
-          'Custom training',
+          'Smart-coach sera personalisé et adapté à votre demande',
+          'Disponibilté du support',
         ],
         cta: {
-          text: 'Contact Sales',
+          text: 'Nous contacter',
           href: '#contact',
         },
         featured: false,
@@ -199,45 +194,44 @@ export const siteConfig = {
   // FAQ
   // ============================================
   faq: {
-    title: 'Frequently Asked Questions',
-    subtitle: 'Everything you need to know about AI Agent Platform',
+    title: 'Les questions les plus posées',
+    subtitle: 'Tout ce que vous avez besoin de savoir à propos de smart_coach',
   },
 
   // ============================================
   // CONTACT
   // ============================================
   contact: {
-    title: 'Start Building Today',
+    title: 'Nous contacter',
     subtitle:
-      'Join thousands of teams using AI agents to automate their workflows. Get started in minutes with our free tier.',
+      'Vous avez une demande en particulier ? Contactez nous via le formulaire ci-contre.',
     benefits: [
-      'No credit card required',
-      'Setup in under 5 minutes',
-      'Cancel anytime',
-      '24/7 customer support',
+      'Retour en 48h',
+      'Demandes entreprises',
+      'Demandes spécifiques ou questions',
     ],
-    email: 'hello@aiagentplatform.com',
+    email: 'peyofonteneau8@gmail.com',
     form: {
       cta: 'Get Started Free',
       fields: {
         name: {
-          label: 'Full Name',
-          placeholder: 'John Doe',
+          label: 'Nom complet',
+          placeholder: 'Paul Dupont',
           required: true,
         },
         email: {
-          label: 'Work Email',
-          placeholder: 'john@company.com',
+          label: 'mail',
+          placeholder: 'paul@entrepise.com',
           required: true,
         },
         company: {
-          label: 'Company',
-          placeholder: 'Your Company Inc.',
+          label: 'Entreprise (si vous nous contacter pour un besoin entreprise)',
+          placeholder: "Nom de l'entreprise",
           required: false,
         },
         message: {
-          label: 'What would you like to automate?',
-          placeholder: 'Tell us about your workflow and automation needs...',
+          label: 'Le sujet de votre demande',
+          placeholder: 'Le détail de votre demande',
           required: false,
         },
       },
@@ -249,25 +243,22 @@ export const siteConfig = {
   // ============================================
   footer: {
     tagline:
-      'Intelligent automation for modern teams. Transform your workflow with AI.',
+      'Un coach IA qui vous connaît vraiment : objectifs, charge d’entraînement, blessures, fréquence cardiaque… votre programme devient 100% sur-mesure.',
     columns: [
       {
-        title: 'Product',
+        title: 'Produit',
         links: [
-          { name: 'Features', href: '#features' },
-          { name: 'Pricing', href: '#pricing' },
-          { name: 'Integrations', href: '#' },
-          { name: 'API Docs', href: '#' },
-          { name: 'Changelog', href: '#' },
+          { name: 'Les avantages', href: '#features' },
+          { name: 'Prix', href: '#pricing' },
+          { name: 'Accueil', href: '#' },
+          { name: 'A compléter (API ?)', href: '#' },
+          { name: 'A compléter (log ?)', href: '#' },
         ],
       },
       {
-        title: 'Company',
+        title: 'A propos de smart_coach',
         links: [
-          { name: 'About Us', href: '#' },
-          { name: 'Blog', href: '#' },
-          { name: 'Careers', href: '#' },
-          { name: 'Press Kit', href: '#' },
+          { name: 'Les fondateurs', href: '#presentation' },
           { name: 'Contact', href: '#contact' },
         ],
       },
@@ -283,11 +274,10 @@ export const siteConfig = {
       },
     ],
     social: [
-      { name: 'Twitter', href: '#', icon: 'twitter' },
-      { name: 'GitHub', href: '#', icon: 'github' },
-      { name: 'Dribbble', href: '#', icon: 'dribbble' },
-      { name: 'LinkedIn', href: '#', icon: 'linkedin' },
+      { name: 'Strava', href: 'https://www.strava.com/login?hl=fr-FR', icon: 'strava' },
+      { name: 'Instagram', href: 'https://www.instagram.com/', icon: "instagram" },
+      { name: 'LinkedIn', href: 'https://www.linkedin.com/', icon: 'linkedin' },
     ],
-    copyright: `${new Date().getFullYear()} AI Agent Platform. All rights reserved.`,
+    copyright: `${new Date().getFullYear()} plateform de coaching IA personalisé, tout droit reservés`,
   },
 };

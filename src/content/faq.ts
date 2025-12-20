@@ -1,32 +1,32 @@
 export const faqItems = [
   {
-    question: 'What is an AI agent and how does it work?',
+    question: 'Avec quels appareils ou services puis-je connecter Smart Coach ?',
     answer:
-      'An AI agent is an autonomous software program that can understand instructions, make decisions, and perform tasks on your behalf. Our agents use advanced language models to interpret your goals, connect with your tools, and execute complex workflows automatically—learning and improving over time.',
+      'Smart Coach peut se connecter à Strava. Nous prévoyons d’ajouter d’autres plateformes à l’avenir.',
   },
   {
-    question: 'Do I need coding knowledge to use this platform?',
+    question: 'Mes données sont-elles sécurisées ?',
     answer:
-      'Not at all! Our platform is designed for everyone. You configure agents using natural language—just describe what you want in plain English. The AI handles all the technical complexity behind the scenes. That said, developers can also access advanced features and APIs for custom integrations.',
+      'Oui, la sécurité de vos données est notre priorité. Toutes les informations importées sont cryptées et utilisées uniquement pour personnaliser votre entraînement et vos recommandations.',
   },
   {
-    question: 'How secure is my data?',
+    question: 'Comment Smart Coach personnalise-t-il mes séances ?',
     answer:
-      'Security is our top priority. We use bank-level encryption (AES-256) for data at rest and in transit, are SOC 2 Type II certified, and maintain strict access controls. Your data is never used to train AI models, and we offer enterprise options including on-premise deployment for maximum control.',
+      'Votre agent IA prend en compte vos données personnelles (taille, poids, âge, zones de fréquence cardiaque, blessures éventuelles) ainsi que vos objectifs sportifs et vos performances passées pour créer un programme adapté à votre niveau et à vos besoins.',
   },
   {
-    question: 'Can I integrate with my existing tools?',
+    question: 'Mon coach IA peut-il tenir compte de mes blessures ou limitations ?',
     answer:
-      'Yes! We support 1000+ integrations including Slack, Microsoft Teams, Gmail, Salesforce, HubSpot, databases, and custom APIs. Most integrations take just a few clicks to set up. If you need a custom integration, our Enterprise plan includes dedicated support to build exactly what you need.',
+      'Absolument. Vous pouvez renseigner vos antécédents ou blessures, et Smart Coach ajustera vos séances pour éviter les zones à risque et favoriser la récupération.',
   },
   {
-    question: "What happens if I exceed my plan's task limit?",
+    question: "D'ou proviennent les plans d'entrainements fournit par smart_coach?",
     answer:
-      "We'll notify you when you approach your limit. You can upgrade to a higher plan anytime, or purchase additional task packs. Your agents won't stop working—we'll never leave you hanging mid-workflow. We believe in flexible, fair pricing that grows with your needs.",
+      "Smart_coach à été instruit parnos soins avec un grand nombres d'études et de formations parfois payantes. Il est capable si vous lui demander de vous donner la source des études sur lesquels il s'appuie pour vous fournir sa réponse. Grâce au RAG smart_coach est contraint de s'appuyer sur les études que nous lui avons fournit pour vous répondre.",
   },
   {
-    question: 'Can I cancel my subscription anytime?',
+    question: 'Des mises à jour sont-elles prévues ?',
     answer:
-      "Absolutely. You can cancel anytime with no penalties or fees. You'll retain access until the end of your billing period, and you can export all your data and configurations. We're confident you'll love the platform, but we never lock you in.",
+      "Oui et c'est pour cela que vos retours nous sont précieux ! Nous mettrons régulièrement à jour Smart Coach pour améliorer les fonctionnalités, ajouter de nouvelles intégrations, etc.",
   },
 ];
