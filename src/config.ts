@@ -174,7 +174,7 @@ export const siteConfig = {
       },
       {
         name: 'Entreprise',
-        price: 'Customiser',
+        price: '',
         period: '',
         description: "Parce que vos employés mérite d'atteindre leurs objectifs spotifs",
         features: [

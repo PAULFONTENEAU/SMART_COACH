@@ -30,7 +30,7 @@ import { Icon } from 'astro-icon/components';
 
         <div class="border-mono-light border-t pt-8">
           <p class="text-mono-gray mb-4 text-sm">
-            Questions? Reach out to our team:
+            Des questions? Contactez notre équipe :
           </p>
           <a
             href={`mailto:${siteConfig.contact.email}`}
@@ -113,9 +113,9 @@ import { Icon } from 'astro-icon/components';
           </button>
 
           <p class="text-mono-gray text-center text-xs leading-relaxed">
-            By submitting this form, you agree to our
-            <a href="#" class="underline">Terms of Service</a> and
-            <a href="#" class="underline">Privacy Policy</a>
+            En envoyant ce questionaire vous acceptez nos :
+            <a href="#" class="underline">Termes et conditions</a> et
+            <a href="#" class="underline">Clause de confidentialité</a>
           </p>
         </form>
       </div>
@@ -127,9 +127,9 @@ import { Icon } from 'astro-icon/components';
   document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
-      contactForm.addEventListener('submit', (e) => {
+      contactForm.addEventListener('envoyer', (e) => {
         e.preventDefault();
-        alert('Thank you for your message! We will get back to you soon.');
+        alert('Merci pou votre message, notre équipe traite votre demande au plus vite !');
         contactForm.reset();
       });
     }
