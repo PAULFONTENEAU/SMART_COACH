@@ -42,7 +42,7 @@ import { Icon } from 'astro-icon/components';
       <div
         class="scroll-fade-right border-mono-lighter rounded-xl border bg-white p-8 shadow-lg"
       >
-        <form id="contactForm" class="space-y-6">
+        <form id="contactForm" class="space-y-6" action="https://formspree.io/f/xwveorya"  method="POST" >
           <div>
             <label
               for="name"
@@ -129,7 +129,7 @@ import { Icon } from 'astro-icon/components';
     if (contactForm) {
       contactForm.addEventListener('envoyer', (e) => {
         e.preventDefault();
-        alert('Merci pou votre message, notre équipe traite votre demande au plus vite !');
+        alert('Merci pour votre message, notre équipe traite votre demande au plus vite !');
         contactForm.reset();
       });
     }

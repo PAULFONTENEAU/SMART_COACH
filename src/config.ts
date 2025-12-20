@@ -31,7 +31,7 @@ export const siteConfig = {
   // ============================================
   navigation: {
     links: [
-      { name: 'Qui sommes nous ?', href: '#features' },
+      { name: 'Les avantages', href: '#features' },
       { name: 'Fonctionnement', href: '#how-it-works' },
       { name: 'Tarification', href: '#pricing' },
       { name: 'FAQ', href: '#faq' },
@@ -210,9 +210,9 @@ export const siteConfig = {
       'Demandes entreprises',
       'Demandes spécifiques ou questions',
     ],
-    email: 'peyofonteneau8@gmail.com',
+    email: 'smartcoach.france@gmail.com',
     form: {
-      cta: 'Get Started Free',
+      cta: 'Envoyer',
       fields: {
         name: {
           label: 'Nom complet',
@@ -221,7 +221,7 @@ export const siteConfig = {
         },
         email: {
           label: 'mail',
-          placeholder: 'paul@entrepise.com',
+          placeholder: 'paul.dupont@entreprise.com',
           required: true,
         },
         company: {
